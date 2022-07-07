@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "removeComments": true,
+        "outDir": "./dist",
+        "noImplicitAny": true,
+        "lib": [
+            "ES2022",
+            "dom"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
